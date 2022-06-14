@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Réchauffement climatique</title>
+
+  <!-- FONT AWESOME -->
+  <script src="https://kit.fontawesome.com/7eb017dd03.js" crossorigin="anonymous"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+
+  <div class="onglet-side">
+    <a href="#accueil" class="active"></a>
+    <a href="#mission"></a>
+    <a href="#about"></a>
+    <a href="#donation"></a>
+  </div>
+
+<!-- HEADER -->
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="img/logo.png" alt="">
+      </div>
+      <div class="onglets">
+        <ul>
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#mission">Notre Mission</a></li>
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#donation">Faire un don</a></li>
+        </ul>
+      </div>
+      <div class="logo"></div>
+    </div>
+  </header>
+
+<!-- SEC 1 -->
+
+  <section class="sec1" id="accueil">
+    <div class="container">
+      <h1>Réchauffement<br>climatique</h1>
+      <a href="#mission">
+        <button>En savoirs plus<i class="fa-solid fa-arrow-right"></i></button>
+      </a>
+      <div class="bg-responsive">
+        <img src="img/11.png" alt="">
+      </div>
+    </div>
+  </section>
+
+<!-- TRANSITION -->
+<div class="transition">
+  <img src="img/10.png" alt="">
+</div>
+
+<!-- SEC 2 -->
+
+
+  <section class="sec2" id="mission">
+    <div class="container">
+      <div class="title">
+        <h1>Notre Mission...</h1>
+      </div>
+      <div class="content content-top">
+        <div class="left" style="max-width: 700px;">
+          <div class="titre">
+            <div class="point"></div>
+            <h2>"NOUS" SOMMES LA SOLUTION</h2>
+          </div>
+          <div class="separateur"></div>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas commodi doloribus cupiditate beatae iste hic, debitis architecto itaque esse officiis aut suscipit illum ex eaque. Asperiores nam in, et consectetur ut maxime laboriosam quisquam.</p>
+        </div>
+        <div class="right">
+          <img src="img/4.png" alt="">
+        </div>
+      </div>
+      <div class="content content-bottom">
+        <div class="left">
+          <img src="img/6.png" alt="">
+        </div>
+        <div class="right" style="max-width: 700px;">
+          <div class="titre">
+              <div class="point"></div>
+              <h2>"NOUS" SOMMES LA SOLUTION</h2>
+          </div>
+            <div class="separateur"></div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas commodi doloribus cupiditate beatae iste hic, debitis architecto itaque esse officiis aut suscipit illum ex eaque. Asperiores nam in, et consectetur ut maxime laboriosam quisquam.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec3" id="about">
+    <div class="container">
+      <div class="left">
+        <div class="title">
+          <h1>Des espèces en      <br>voie de disparition</h1>
+        </div>
+        <div class="separateur"></div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas commodi doloribus cupiditate beatae iste hic, debitis architecto itaque esse officiis aut suscipit illum ex eaque. Asperiores nam in, et consectetur ut maxime laboriosam quisquam.</p>
+        <a href="#">
+          <button>En savoirs plus<i class="fa-solid fa-arrow-right"></i></button>
+        </a>
+      </div>
+      <div class="right">
+        <img src="img/2.png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section class="sec4" id="donation">
+    <div class="content">
+      <div class="left">
+        <img src="img/5.png" alt="">
+      </div>
+      <div class="mid">
+        <h1>Pour chaque don</h1>
+        <h2>1M² de banquise sauvée</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas commodi doloribus cupiditate beatae iste hic, debitis architecto itaque esse officiis aut suscipit illum ex eaque. Asperiores nam in, et consectetur ut maxime laboriosam quisquam.</p>
+        <button>Faire un don<i class="fab fa-paypal"></i></button>
+      </div>
+      <div class="right">
+        <img src="img/8.png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+  <script type="text/javascript">
+    $(document).on("click", ".onglet-side a", function(){
+      $(this).addClass("active").siblings().removeClass("active");
+    });
+  </script>
+
+</body>
+</html>
